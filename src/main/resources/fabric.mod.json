@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "toml-resources",
+	"version": "${version}",
+	"name": "Toml Resources",
+	"description": "Addon for Simple Resources allowing the usage of the toml format",
+	"authors": [
+		"Yorick-06"
+	],
+	"contact": {
+		"sources": "https://github.com/Yorick-06/TomlResources",
+		"homepage": "https://github.com/Yorick-06/TomlResources",
+		"issues": "https://github.com/Yorick-06/TomlResources/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/toml-resources/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cz.yorick.TomlResources"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": ">=21",
+		"simple-resources": ">=2.1.0"
+	}
+}

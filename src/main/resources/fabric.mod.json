@@ -16,7 +16,7 @@
 	"icon": "assets/toml-resources/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
+		"simple-resources:file_type": [
 			"cz.yorick.TomlResources"
 		]
 	},
@@ -24,6 +24,6 @@
 		"fabricloader": "*",
 		"minecraft": "*",
 		"java": ">=21",
-		"simple-resources": ">=2.1.0"
+		"simple-resources": ">=2.2.1"
 	}
 }
